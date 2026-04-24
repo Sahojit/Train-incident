@@ -1,0 +1,35 @@
+# ── Core ML / DL ──────────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.38.0
+accelerate>=0.27.0
+
+# ── Computer Vision ────────────────────────────────────────────────────────────
+Pillow>=10.0.0
+opencv-python>=4.9.0
+numpy>=1.24.0
+
+# ── NLP ────────────────────────────────────────────────────────────────────────
+spacy>=3.7.0
+# After install: python -m spacy download en_core_web_sm
+
+# ── ML Utilities ───────────────────────────────────────────────────────────────
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+
+# ── API ────────────────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+
+# ── Alert generation (optional — falls back to templates if absent) ─────────────
+anthropic>=0.25.0
+
+# ── Dashboard ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Dev / Notebooks ────────────────────────────────────────────────────────────
+jupyter>=1.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0

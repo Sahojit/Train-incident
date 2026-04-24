@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Model checkpoints (large binary files)
+models/*.pt
+models/*.bin
+
+# Data / generated images
+data/train/
+data/val/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Env files
+.env
+*.env
+
+# Logs
+*.log
