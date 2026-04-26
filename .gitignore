@@ -8,11 +8,7 @@ __pycache__/
 *.pyd
 .Python
 
-# Model checkpoints (large binary files)
-models/*.pt
-models/*.pth
-models/*.bin
-traffic-bdd100k/models/
+# Model checkpoints tracked via Git LFS — do NOT ignore *.pth / *.pt / *.bin
 
 # BDD100K raw dataset (too large for git)
 archive (15)/
