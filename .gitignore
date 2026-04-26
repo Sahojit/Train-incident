@@ -10,7 +10,13 @@ __pycache__/
 
 # Model checkpoints (large binary files)
 models/*.pt
+models/*.pth
 models/*.bin
+traffic-bdd100k/models/
+
+# BDD100K raw dataset (too large for git)
+archive (15)/
+traffic-bdd100k/data/
 
 # Data / generated images
 data/train/

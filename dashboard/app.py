@@ -12,11 +12,29 @@ import streamlit as st
 import torch
 from PIL import Image
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+ROOT     = Path(__file__).resolve().parent.parent
+BDD_ROOT = ROOT / "traffic-bdd100k" / "vision"
+sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(BDD_ROOT))
 
-from vision.model import build_model, LABELS as VISION_LABELS
-from vision.dataset import get_val_transforms
-from vision.gradcam import GradCAM, overlay_heatmap
+import importlib.util as _ilu
+
+def _load(name, path):
+    spec = _ilu.spec_from_file_location(name, path)
+    mod  = _ilu.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+_model_mod   = _load("bdd_model",   BDD_ROOT / "model.py")
+_dataset_mod = _load("bdd_dataset", BDD_ROOT / "dataset.py")
+_gradcam_mod = _load("bdd_gradcam", BDD_ROOT / "gradcam.py")
+
+BDD100KClassifier = _model_mod.BDD100KClassifier
+get_val_transforms = _dataset_mod.get_val_transforms
+VISION_LABELS      = _dataset_mod.LABEL_NAMES
+BDD_GradCAM        = _gradcam_mod.GradCAM
+overlay_heatmap    = _gradcam_mod.overlay_heatmap
+
 from alerts.generator import generate_alert
 
 try:
@@ -154,12 +172,15 @@ button[kind="primary"]:hover { background: #3d6be0; }
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
+DEVICE = (torch.device("mps")  if torch.backends.mps.is_available() else
+          torch.device("cuda") if torch.cuda.is_available() else
+          torch.device("cpu"))
+MODELS_DIR  = Path(__file__).resolve().parent.parent / "traffic-bdd100k" / "models"
+VAL_IMG_DIR = Path("/Users/sahojitkarmakar/Documents/ca traffic/traffic-system/archive (15)/bdd100k/bdd100k/images/100k/val")
 
-LABEL_ICONS  = {"rain": "🌧️", "night": "🌙", "congestion": "🚗", "clear": "☀️"}
+LABEL_ICONS  = {"rain": "🌧️", "night": "🌙", "clear": "☀️", "daytime": "🌅"}
 CLASS_ICONS  = {"accident": "🚨", "jam": "⚠️", "road_closure": "🚧", "normal": "✅"}
-COLOR_MAP    = {"rain": "#4299e1", "night": "#9f7aea", "congestion": "#f6ad55", "clear": "#68d391"}
+COLOR_MAP    = {"rain": "#4299e1", "night": "#9f7aea", "clear": "#68d391", "daytime": "#f6ad55"}
 ALERT_CLASS  = {"accident": "alert-accident", "jam": "alert-jam", "road_closure": "alert-closure", "normal": "alert-normal"}
 CLS_COLORS   = {"accident": "#fc8181", "jam": "#f6ad55", "road_closure": "#76e4f7", "normal": "#68d391"}
 
@@ -168,10 +189,11 @@ CLS_COLORS   = {"accident": "#fc8181", "jam": "#f6ad55", "road_closure": "#76e4f
 
 @st.cache_resource(show_spinner=False)
 def load_vision():
-    m = build_model(pretrained=False)
-    ckpt = MODELS_DIR / "best_vision_model.pt"
+    m    = BDD100KClassifier(pretrained=False)
+    ckpt = MODELS_DIR / "best_model.pth"
     if ckpt.exists():
-        m.load_state_dict(torch.load(str(ckpt), map_location=DEVICE)["model_state_dict"])
+        state = torch.load(str(ckpt), map_location=DEVICE)
+        m.load_state_dict(state["model_state_dict"])
     return m.to(DEVICE).eval()
 
 
@@ -206,10 +228,11 @@ def run_vision(pil_img, threshold):
 
 
 def run_gradcam(model, pil_img, label_idx):
-    gc  = GradCAM(model, model.backbone.layer4[-1].conv2)
-    t   = get_val_transforms()(pil_img).unsqueeze(0)
-    cam, _ = gc.generate(t, class_idx=label_idx)
-    overlay = overlay_heatmap(np.array(pil_img.resize((224, 224))), cam, alpha=0.45)
+    gc     = BDD_GradCAM(model, DEVICE)
+    t      = get_val_transforms()(pil_img).unsqueeze(0)
+    heatmap = gc.generate(t, label_idx=label_idx)          # (224, 224) float32
+    orig    = np.array(pil_img.resize((224, 224)))
+    overlay = overlay_heatmap(orig, heatmap, alpha=0.45)
     return Image.fromarray(overlay)
 
 
@@ -277,6 +300,58 @@ def sec(title):
     st.markdown(f"<div class='sec-label'>{title}</div>", unsafe_allow_html=True)
 
 
+@st.cache_data(show_spinner=False)
+def list_val_images(n: int = 200):
+    """Return up to n filenames from the BDD100K val directory."""
+    if not VAL_IMG_DIR.exists():
+        return []
+    return sorted(p.name for p in VAL_IMG_DIR.glob("*.jpg"))[:n]
+
+
+def image_picker(key: str) -> "Image.Image | None":
+    """
+    Dual-mode image selector widget.
+    Returns a PIL Image or None if nothing is chosen yet.
+    """
+    val_files = list_val_images()
+    has_val   = bool(val_files)
+
+    mode = st.radio(
+        "Image source",
+        ["📂 Pick from BDD100K val set", "⬆️ Upload your own"],
+        horizontal=True,
+        key=f"{key}_mode",
+    )
+
+    if mode.startswith("📂") and has_val:
+        chosen = st.selectbox(
+            "Val image",
+            val_files,
+            key=f"{key}_select",
+            label_visibility="collapsed",
+        )
+        if st.button("Load image ▶", key=f"{key}_load", type="primary"):
+            st.session_state[f"{key}_img"] = Image.open(VAL_IMG_DIR / chosen).convert("RGB")
+            st.session_state[f"{key}_name"] = chosen
+        return st.session_state.get(f"{key}_img")
+
+    elif mode.startswith("⬆️"):
+        uploaded = st.file_uploader(
+            "Upload image", type=["jpg", "jpeg", "png"],
+            key=f"{key}_upload", label_visibility="collapsed",
+        )
+        if uploaded:
+            img = Image.open(uploaded).convert("RGB")
+            st.session_state[f"{key}_img"]  = img
+            st.session_state[f"{key}_name"] = uploaded.name
+            return img
+        return st.session_state.get(f"{key}_img")
+
+    else:
+        st.info("BDD100K val directory not found — upload an image instead.")
+        return None
+
+
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 
 with st.sidebar:
@@ -336,9 +411,10 @@ with tab_full:
     left, right = st.columns([1, 1], gap="large")
 
     with left:
-        sec("Input")
-        uploaded = st.file_uploader("Upload traffic image", type=["jpg","jpeg","png"], key="fp_img",
-                                    label_visibility="collapsed")
+        sec("Image")
+        fp_pil = image_picker("fp")
+
+        sec("Incident report")
         incident_text = st.text_area("Incident report", height=90, key="fp_text",
             value="A major accident occurred on NH-8 near Sector 62 causing severe congestion.",
             label_visibility="collapsed")
@@ -349,10 +425,10 @@ with tab_full:
         result_slot = st.empty()
 
     if run_btn:
-        if not uploaded:
-            st.warning("Upload an image to continue.")
+        if fp_pil is None:
+            st.warning("Select or load an image first.")
         else:
-            pil_img = Image.open(uploaded).convert("RGB")
+            pil_img = fp_pil
 
             with st.spinner("Vision…"):
                 prob_dict, detected, vis_model = run_vision(pil_img, threshold)
@@ -405,10 +481,10 @@ with tab_full:
 # ══════════════════════════════════════════════════════════════════════════════
 
 with tab_vision:
-    v_img = st.file_uploader("Upload traffic image", type=["jpg","jpeg","png"], key="v_img")
+    v_pil = image_picker("vis")
 
-    if v_img:
-        pil_img = Image.open(v_img).convert("RGB")
+    if v_pil:
+        pil_img = v_pil
         with st.spinner("Running model…"):
             prob_dict, detected, vis_model = run_vision(pil_img, threshold)
 
@@ -531,7 +607,7 @@ with tab_alert:
         inc_sel  = st.selectbox("Incident type", ["accident", "jam", "road_closure", "normal"])
         loc_sel  = st.text_input("Location", value="Sector 62")
         sev_sel  = st.text_input("Severity", value="major", placeholder="optional")
-        vis_sel  = st.multiselect("Vision labels", VISION_LABELS, default=["rain", "congestion"])
+        vis_sel  = st.multiselect("Vision labels", VISION_LABELS, default=["rain", "night"])
         gen_btn  = st.button("Generate", type="primary", use_container_width=True)
 
     with col_out:
