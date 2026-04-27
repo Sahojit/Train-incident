@@ -1,13 +1,5 @@
-"""
-Training script for traffic scene multi-label classifier.
-
-Usage:
-    python -m vision.train --data_dir data/ --epochs 20 --batch_size 32
-"""
-
 import argparse
 import json
-import os
 from pathlib import Path
 
 import torch
@@ -33,13 +25,11 @@ def train_one_epoch(
 
     for images, labels in tqdm(loader, desc="  Train", leave=False):
         images, labels = images.to(device), labels.to(device)
-
         optimizer.zero_grad()
         logits = model(images)
         loss = criterion(logits, labels)
         loss.backward()
         optimizer.step()
-
         total_loss += loss.item() * images.size(0)
 
     return total_loss / len(loader.dataset)
@@ -75,15 +65,12 @@ def train(args: argparse.Namespace) -> None:
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
 
-    # ------------------------------------------------------------------ data
     ann_train = Path(args.data_dir) / "train_annotations.json"
     ann_val = Path(args.data_dir) / "val_annotations.json"
 
     if not ann_train.exists():
         print("Annotation files not found — generating dummy data...")
-        train_ann, val_ann = generate_dummy_annotations(
-            str(args.data_dir), n_train=200, n_val=50
-        )
+        train_ann, val_ann = generate_dummy_annotations(str(args.data_dir), n_train=200, n_val=50)
     else:
         train_ann = load_annotations(str(ann_train))
         val_ann = load_annotations(str(ann_val))
@@ -94,7 +81,6 @@ def train(args: argparse.Namespace) -> None:
         num_workers=args.num_workers,
     )
 
-    # ----------------------------------------------------------------- model
     model = build_model(pretrained=True, dropout=args.dropout).to(device)
     criterion = nn.BCEWithLogitsLoss()
     optimizer = Adam(
@@ -104,7 +90,6 @@ def train(args: argparse.Namespace) -> None:
     )
     scheduler = CosineAnnealingLR(optimizer, T_max=args.epochs, eta_min=1e-6)
 
-    # -------------------------------------------------------------- training
     best_f1 = 0.0
     models_dir = Path(args.models_dir)
     models_dir.mkdir(parents=True, exist_ok=True)
@@ -131,9 +116,8 @@ def train(args: argparse.Namespace) -> None:
                 "optimizer_state_dict": optimizer.state_dict(),
                 "metrics": metrics,
             }, ckpt_path)
-            print(f"  ✓ Best model saved (f1_macro={best_f1:.4f})")
+            print(f"  Best model saved (f1_macro={best_f1:.4f})")
 
-    # Save training history
     with open(models_dir / "train_history.json", "w") as f:
         json.dump(history, f, indent=2)
     print("\nTraining complete.")

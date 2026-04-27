@@ -1,15 +1,6 @@
-"""
-BERT-based text classifier for traffic incident type.
-Classes: accident | jam | road_closure | normal
-
-Usage:
-    python -m nlp.classifier --train --epochs 5
-    python -m nlp.classifier --predict "Major accident on NH-8 causing severe delay"
-"""
-
 import argparse
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 import torch
 import torch.nn as nn
@@ -78,9 +69,9 @@ class TrafficTextClassifier:
         history = []
 
         for epoch in range(1, epochs + 1):
-            # Train
             self.model.train()
             train_loss = 0.0
+
             for batch in tqdm(train_loader, desc=f"CLS Train E{epoch}"):
                 batch = {k: v.to(self.device) for k, v in batch.items()}
                 outputs = self.model(**batch)
@@ -92,10 +83,10 @@ class TrafficTextClassifier:
                 optimizer.zero_grad()
                 train_loss += loss.item()
 
-            # Validate
             self.model.eval()
             val_loss = 0.0
             all_preds, all_labels = [], []
+
             with torch.no_grad():
                 for batch in val_loader:
                     batch = {k: v.to(self.device) for k, v in batch.items()}
@@ -108,6 +99,7 @@ class TrafficTextClassifier:
             acc = sum(p == l for p, l in zip(all_preds, all_labels)) / len(all_labels)
             avg_train = train_loss / len(train_loader)
             avg_val = val_loss / len(val_loader)
+
             print(f"  Epoch {epoch}: train_loss={avg_train:.4f}  val_loss={avg_val:.4f}  val_acc={acc:.4f}")
             history.append({"epoch": epoch, "train_loss": avg_train, "val_loss": avg_val, "val_acc": acc})
 
@@ -115,12 +107,11 @@ class TrafficTextClassifier:
                 best_val_acc = acc
                 Path(save_path).parent.mkdir(parents=True, exist_ok=True)
                 torch.save({"model_state_dict": self.model.state_dict()}, save_path)
-                print(f"  ✓ Best classifier saved")
+                print(f"  Best classifier saved")
 
         return {"history": history, "best_val_acc": best_val_acc}
 
     def predict(self, text: str) -> Dict:
-        """Predict the incident class and return label with confidence scores."""
         self.model.eval()
         encoding = self.tokenizer(
             text, max_length=128, padding="max_length",

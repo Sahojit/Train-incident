@@ -1,24 +1,16 @@
-"""
-NLP preprocessing pipeline using spaCy.
-Handles tokenization, POS tagging, dependency parsing, and feature extraction.
-"""
-
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+import re
+from dataclasses import dataclass
 from typing import Dict, List, Optional
 
 import spacy
 from spacy.tokens import Doc, Token
 
-
-# Load once at module level; download with: python -m spacy download en_core_web_sm
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    raise RuntimeError(
-        "spaCy model not found. Run: python -m spacy download en_core_web_sm"
-    )
+    raise RuntimeError("spaCy model not found. Run: python -m spacy download en_core_web_sm")
 
 
 @dataclass
@@ -44,8 +36,6 @@ class ParsedDocument:
 
 
 def clean_text(text: str) -> str:
-    """Basic text normalisation before spaCy processing."""
-    import re
     text = text.strip()
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"[^\w\s.,!?'-]", "", text)
@@ -66,16 +56,12 @@ def extract_token_info(token: Token) -> TokenInfo:
 
 
 def parse_document(text: str) -> ParsedDocument:
-    """Run full spaCy pipeline and extract structured information."""
     cleaned = clean_text(text)
     doc: Doc = nlp(cleaned)
 
     tokens = [extract_token_info(t) for t in doc]
-
     sentences = [sent.text.strip() for sent in doc.sents]
-
     noun_chunks = [chunk.text for chunk in doc.noun_chunks]
-
     named_entities = [
         {"text": ent.text, "label": ent.label_, "start": ent.start_char, "end": ent.end_char}
         for ent in doc.ents
@@ -92,7 +78,6 @@ def parse_document(text: str) -> ParsedDocument:
 
 
 def extract_keywords(text: str, pos_filter: Optional[List[str]] = None) -> List[str]:
-    """Extract content words (nouns, verbs, adjectives by default)."""
     if pos_filter is None:
         pos_filter = ["NOUN", "VERB", "ADJ", "PROPN"]
 
@@ -105,7 +90,6 @@ def extract_keywords(text: str, pos_filter: Optional[List[str]] = None) -> List[
 
 
 def get_dependency_triples(text: str) -> List[Dict[str, str]]:
-    """Extract subject-verb-object triples via dependency parsing."""
     doc = nlp(clean_text(text))
     triples = []
     for token in doc:

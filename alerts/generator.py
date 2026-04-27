@@ -1,24 +1,9 @@
-"""
-Alert generator for traffic incidents.
-
-Strategy:
-  1. If ANTHROPIC_API_KEY is set → use Claude API with few-shot prompting
-  2. Otherwise → deterministic template-based fallback
-
-Output example:
-  "🚨 Accident at Sector 62. Heavy congestion expected. Avoid route."
-"""
-
 from __future__ import annotations
 
 import os
 import random
 from typing import Dict, List, Optional
 
-
-# ---------------------------------------------------------------------------
-# Few-shot examples used in the Claude prompt
-# ---------------------------------------------------------------------------
 
 FEW_SHOT_EXAMPLES = [
     {
@@ -59,11 +44,6 @@ FEW_SHOT_EXAMPLES = [
     },
 ]
 
-
-# ---------------------------------------------------------------------------
-# Template-based fallback
-# ---------------------------------------------------------------------------
-
 TEMPLATES: Dict[str, List[str]] = {
     "accident": [
         "🚨 {severity_str}accident at {location}. {vision_str}Avoid this route.",
@@ -103,16 +83,8 @@ def _template_alert(
     severity_str = f"{severity.capitalize()} " if severity and severity.lower() not in ("none", "normal") else ""
     vision_str = "".join(VISION_PHRASES.get(lbl, "") for lbl in vision_labels)
 
-    return tmpl.format(
-        location=location,
-        severity_str=severity_str,
-        vision_str=vision_str,
-    ).strip()
+    return tmpl.format(location=location, severity_str=severity_str, vision_str=vision_str).strip()
 
-
-# ---------------------------------------------------------------------------
-# Claude-based alert (few-shot)
-# ---------------------------------------------------------------------------
 
 def _build_prompt(
     incident_type: str,
@@ -157,14 +129,9 @@ def _claude_alert(
         )
         return message.content[0].text.strip()
     except Exception as e:
-        # Fall back to template on any API error
         print(f"[AlertGenerator] Claude API error: {e}. Using template fallback.")
         return _template_alert(incident_type, location, severity, vision_labels)
 
-
-# ---------------------------------------------------------------------------
-# Public interface
-# ---------------------------------------------------------------------------
 
 def generate_alert(
     incident_type: str,
@@ -174,20 +141,6 @@ def generate_alert(
     api_key: Optional[str] = None,
     force_template: bool = False,
 ) -> Dict[str, str]:
-    """
-    Generate a human-readable traffic alert.
-
-    Args:
-        incident_type:  One of accident | jam | road_closure | normal
-        location:       Location string (e.g. "Sector 62")
-        severity:       Optional severity level (e.g. "major")
-        vision_labels:  List of vision model predictions (e.g. ["rain", "congestion"])
-        api_key:        Anthropic API key; falls back to template if None/empty
-        force_template: Skip Claude even if key is available (useful for testing)
-
-    Returns:
-        dict with keys: alert_text, method (claude | template)
-    """
     vision_labels = vision_labels or []
     resolved_key = api_key or os.environ.get("ANTHROPIC_API_KEY", "")
 
@@ -216,7 +169,6 @@ if __name__ == "__main__":
         ("normal", "Ring Road", None, ["clear"]),
     ]
 
-    print("=== Alert Generator Demo (Template Mode) ===\n")
     for inc, loc, sev, vis in test_cases:
         result = generate_alert(inc, loc, sev, vis, force_template=True)
         print(f"[{inc.upper()}] {result['alert_text']}")

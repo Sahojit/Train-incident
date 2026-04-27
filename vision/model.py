@@ -1,8 +1,3 @@
-"""
-ResNet18-based multi-label classifier for traffic scene understanding.
-Labels: rain, night, congestion, clear
-"""
-
 import torch
 import torch.nn as nn
 from torchvision import models
@@ -18,7 +13,6 @@ class TrafficSceneClassifier(nn.Module):
         weights = models.ResNet18_Weights.DEFAULT if pretrained else None
         backbone = models.resnet18(weights=weights)
 
-        # Freeze early layers, fine-tune later ones
         for name, param in backbone.named_parameters():
             if "layer4" not in name and "fc" not in name:
                 param.requires_grad = False
@@ -34,7 +28,6 @@ class TrafficSceneClassifier(nn.Module):
         self.backbone = backbone
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        # Returns raw logits — apply sigmoid externally for inference
         return self.backbone(x)
 
     def predict_proba(self, x: torch.Tensor) -> torch.Tensor:
@@ -52,5 +45,5 @@ if __name__ == "__main__":
     model = build_model()
     dummy = torch.randn(2, 3, 224, 224)
     logits = model(dummy)
-    print(f"Output shape: {logits.shape}")  # (2, 4)
+    print(f"Output shape: {logits.shape}")
     print(f"Trainable params: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")

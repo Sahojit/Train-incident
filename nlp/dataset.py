@@ -1,11 +1,3 @@
-"""
-Datasets for:
-  1. BERT-based NER fine-tuning (token classification)
-  2. Text classification (accident / jam / road_closure / normal)
-
-Includes synthetic data generators for both tasks.
-"""
-
 from __future__ import annotations
 
 import random
@@ -16,10 +8,6 @@ import torch
 from torch.utils.data import Dataset
 from transformers import BertTokenizerFast
 
-
-# -----------------------------------------------------------------------
-# Label maps
-# -----------------------------------------------------------------------
 
 NER_LABEL2ID: Dict[str, int] = {
     "O": 0,
@@ -40,10 +28,6 @@ CLS_LABEL2ID: Dict[str, int] = {
 }
 CLS_ID2LABEL = {v: k for k, v in CLS_LABEL2ID.items()}
 
-
-# -----------------------------------------------------------------------
-# NER dataset (token classification)
-# -----------------------------------------------------------------------
 
 @dataclass
 class NERSample:
@@ -78,17 +62,16 @@ class NERDataset(Dataset):
             return_tensors="pt",
         )
 
-        # Align labels with subword tokens
         word_ids = encoding.word_ids(batch_index=0)
         label_ids = []
         prev_word_id = None
+
         for word_id in word_ids:
             if word_id is None:
-                label_ids.append(-100)  # Special tokens → ignored in loss
+                label_ids.append(-100)
             elif word_id != prev_word_id:
                 label_ids.append(self.label2id.get(sample.ner_tags[word_id], 0))
             else:
-                # Continuation sub-token: use I- tag if B- was used, else -100
                 tag = sample.ner_tags[word_id]
                 if tag.startswith("B-"):
                     label_ids.append(self.label2id.get("I-" + tag[2:], 0))
@@ -103,10 +86,6 @@ class NERDataset(Dataset):
             "labels": torch.tensor(label_ids, dtype=torch.long),
         }
 
-
-# -----------------------------------------------------------------------
-# Classification dataset
-# -----------------------------------------------------------------------
 
 class TextClassificationDataset(Dataset):
     def __init__(
@@ -139,10 +118,6 @@ class TextClassificationDataset(Dataset):
             "labels": torch.tensor(self.labels[idx], dtype=torch.long),
         }
 
-
-# -----------------------------------------------------------------------
-# Synthetic data for testing
-# -----------------------------------------------------------------------
 
 LOCATIONS = ["Sector 62", "NH-8", "MG Road", "Ring Road", "Highway 48", "Outer Ring Road", "Nehru Place"]
 INCIDENT_TYPES = ["accident", "collision", "pile-up", "breakdown", "road closure"]

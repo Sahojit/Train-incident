@@ -1,25 +1,16 @@
-"""
-Dataset and augmentation pipeline for traffic scene multi-label classification.
-"""
-
-import os
 import json
 import random
 from pathlib import Path
-from typing import List, Tuple, Optional, Dict
+from typing import Dict, List, Optional, Tuple
 
-import torch
-from torch.utils.data import Dataset, DataLoader
-from torchvision import transforms
-from PIL import Image, ImageFilter
 import numpy as np
+import torch
+from PIL import Image, ImageFilter
+from torch.utils.data import DataLoader, Dataset
+from torchvision import transforms
 
 LABELS = ["rain", "night", "congestion", "clear"]
 
-
-# ---------------------------------------------------------------------------
-# Augmentation transforms
-# ---------------------------------------------------------------------------
 
 def get_train_transforms(img_size: int = 224) -> transforms.Compose:
     return transforms.Compose([
@@ -41,16 +32,7 @@ def get_val_transforms(img_size: int = 224) -> transforms.Compose:
     ])
 
 
-# ---------------------------------------------------------------------------
-# Dataset class
-# ---------------------------------------------------------------------------
-
 class TrafficSceneDataset(Dataset):
-    """
-    Expects a JSON annotation file with entries:
-        [{"image": "path/to/img.jpg", "labels": ["rain", "congestion"]}, ...]
-    """
-
     def __init__(
         self,
         annotations: List[Dict],
@@ -79,17 +61,12 @@ class TrafficSceneDataset(Dataset):
         return image, label_vec
 
 
-# ---------------------------------------------------------------------------
-# Synthetic data generator (for demo / testing without real images)
-# ---------------------------------------------------------------------------
-
 def generate_dummy_annotations(
     data_dir: str,
     n_train: int = 200,
     n_val: int = 50,
     img_size: int = 224,
 ) -> Tuple[List[Dict], List[Dict]]:
-    """Creates random RGB images and annotations for quick testing."""
     train_dir = Path(data_dir) / "train"
     val_dir = Path(data_dir) / "val"
     train_dir.mkdir(parents=True, exist_ok=True)
@@ -101,7 +78,6 @@ def generate_dummy_annotations(
             img = Image.fromarray(np.random.randint(0, 255, (img_size, img_size, 3), dtype=np.uint8))
             path = str(directory / f"img_{i:04d}.jpg")
             img.save(path)
-            # Randomly assign 1-2 labels
             chosen = random.sample(LABELS, k=random.randint(1, 2))
             records.append({"image": path, "labels": chosen})
         return records
@@ -109,17 +85,12 @@ def generate_dummy_annotations(
     train_ann = _make_split(train_dir, n_train)
     val_ann = _make_split(val_dir, n_val)
 
-    # Save annotations
     for split, ann in [("train", train_ann), ("val", val_ann)]:
         with open(Path(data_dir) / f"{split}_annotations.json", "w") as f:
             json.dump(ann, f, indent=2)
 
     return train_ann, val_ann
 
-
-# ---------------------------------------------------------------------------
-# DataLoader factory
-# ---------------------------------------------------------------------------
 
 def load_annotations(json_path: str) -> List[Dict]:
     with open(json_path) as f:

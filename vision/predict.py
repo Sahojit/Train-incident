@@ -1,10 +1,3 @@
-"""
-Inference module for traffic scene classification.
-
-Usage:
-    python -m vision.predict --image path/to/image.jpg --checkpoint models/best_vision_model.pt
-"""
-
 import argparse
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -70,10 +63,10 @@ def batch_predict(
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Predict traffic scene labels")
-    p.add_argument("--image", type=str, required=True, help="Path to input image")
+    p.add_argument("--image", type=str, required=True)
     p.add_argument("--checkpoint", type=str, default="models/best_vision_model.pt")
     p.add_argument("--threshold", type=float, default=0.5)
-    p.add_argument("--gradcam", action="store_true", help="Generate Grad-CAM visualisation")
+    p.add_argument("--gradcam", action="store_true")
     p.add_argument("--gradcam_output", type=str, default="gradcam_output.png")
     return p.parse_args()
 

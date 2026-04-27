@@ -1,8 +1,3 @@
-"""
-Grad-CAM visualization for traffic scene classifier.
-Produces heatmaps showing which image regions activated each label prediction.
-"""
-
 from __future__ import annotations
 
 from typing import Dict, List, Optional, Tuple
@@ -18,11 +13,6 @@ LABELS = ["rain", "night", "congestion", "clear"]
 
 
 class GradCAM:
-    """
-    Hooks into a target conv layer to compute class-discriminative
-    activation maps via gradient-weighted feature maps.
-    """
-
     def __init__(self, model: torch.nn.Module, target_layer: torch.nn.Module):
         self.model = model
         self.target_layer = target_layer
@@ -45,31 +35,23 @@ class GradCAM:
         input_tensor: torch.Tensor,
         class_idx: Optional[int] = None,
     ) -> Tuple[np.ndarray, int]:
-        """
-        Returns:
-            cam:       H x W float32 array in [0, 1]
-            class_idx: the class that was visualised
-        """
         self.model.eval()
-        output = self.model(input_tensor)  # (1, C)
+        output = self.model(input_tensor)
 
         if class_idx is None:
             class_idx = int(torch.sigmoid(output).argmax(dim=1).item())
 
         self.model.zero_grad()
-        # Use score of the chosen class as scalar to backprop
         score = output[0, class_idx]
         score.backward()
 
-        gradients = self._gradients  # (1, C_feat, H', W')
-        activations = self._activations  # (1, C_feat, H', W')
+        gradients = self._gradients
+        activations = self._activations
 
-        # Global average pooling of gradients → weights
-        weights = gradients.mean(dim=(2, 3), keepdim=True)  # (1, C_feat, 1, 1)
-        cam = (weights * activations).sum(dim=1).squeeze(0)  # (H', W')
+        weights = gradients.mean(dim=(2, 3), keepdim=True)
+        cam = (weights * activations).sum(dim=1).squeeze(0)
         cam = F.relu(cam)
 
-        # Normalise to [0, 1]
         cam_min, cam_max = cam.min(), cam.max()
         if cam_max > cam_min:
             cam = (cam - cam_min) / (cam_max - cam_min + 1e-8)
@@ -83,7 +65,6 @@ def overlay_heatmap(
     alpha: float = 0.4,
     colormap: int = cv2.COLORMAP_JET,
 ) -> np.ndarray:
-    """Blend the Grad-CAM heatmap with the original image."""
     h, w = original_image.shape[:2]
     heatmap = cv2.resize(cam, (w, h))
     heatmap_uint8 = np.uint8(255 * heatmap)
@@ -93,8 +74,7 @@ def overlay_heatmap(
     if original_image.dtype != np.uint8:
         original_image = (original_image * 255).astype(np.uint8)
 
-    overlaid = (alpha * heatmap_colored + (1 - alpha) * original_image).astype(np.uint8)
-    return overlaid
+    return (alpha * heatmap_colored + (1 - alpha) * original_image).astype(np.uint8)
 
 
 def visualize_all_labels(
@@ -104,7 +84,6 @@ def visualize_all_labels(
     output_path: str = "gradcam_output.png",
     label_names: List[str] = LABELS,
 ) -> Dict[str, np.ndarray]:
-    """Generate Grad-CAM for every label and save a grid image."""
     preprocess = transforms.Compose([
         transforms.Resize((224, 224)),
         transforms.ToTensor(),
@@ -113,7 +92,6 @@ def visualize_all_labels(
 
     pil_img = Image.open(image_path).convert("RGB").resize((224, 224))
     original = np.array(pil_img)
-
     input_tensor = preprocess(pil_img).unsqueeze(0)
 
     gradcam = GradCAM(model, target_layer)
@@ -126,7 +104,6 @@ def visualize_all_labels(
         results[label] = overlay
         overlays.append(overlay)
 
-    # Build side-by-side grid: original | label0 | label1 | ...
     grid = np.concatenate([original] + overlays, axis=1)
     Image.fromarray(grid).save(output_path)
     print(f"Grad-CAM grid saved to {output_path}")
@@ -138,11 +115,8 @@ if __name__ == "__main__":
     from vision.model import build_model
 
     model = build_model(pretrained=False)
-    # Access the last conv layer inside layer4
     target_layer = model.backbone.layer4[-1].conv2
 
-    # Create a dummy image for testing
     dummy_img = Image.fromarray(np.random.randint(0, 255, (224, 224, 3), dtype=np.uint8))
     dummy_img.save("/tmp/test_traffic.jpg")
-
     visualize_all_labels(model, "/tmp/test_traffic.jpg", target_layer, "/tmp/gradcam_test.png")

@@ -1,20 +1,6 @@
-"""
-BERT-based Named Entity Recognition for traffic incident text.
-
-Entities:
-  - LOCATION       (e.g. Sector 62, NH-8)
-  - INCIDENT_TYPE  (e.g. accident, collision, road closure)
-  - SEVERITY       (e.g. minor, major, severe)
-
-Usage:
-    python -m nlp.ner_model --train --epochs 5
-    python -m nlp.ner_model --predict "Major accident at Sector 62 causing severe congestion"
-"""
-
 import argparse
-import json
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 import torch
 import torch.nn as nn
@@ -31,10 +17,6 @@ from nlp.dataset import (
 
 MODEL_NAME = "bert-base-uncased"
 
-
-# ---------------------------------------------------------------------------
-# Model wrapper
-# ---------------------------------------------------------------------------
 
 class TrafficNERModel:
     def __init__(
@@ -85,9 +67,9 @@ class TrafficNERModel:
         history = []
 
         for epoch in range(1, epochs + 1):
-            # Training
             self.model.train()
             train_loss = 0.0
+
             for batch in tqdm(train_loader, desc=f"NER Train E{epoch}"):
                 batch = {k: v.to(self.device) for k, v in batch.items()}
                 outputs = self.model(**batch)
@@ -99,10 +81,10 @@ class TrafficNERModel:
                 optimizer.zero_grad()
                 train_loss += loss.item()
 
-            # Validation
             self.model.eval()
             val_loss = 0.0
             correct, total = 0, 0
+
             with torch.no_grad():
                 for batch in val_loader:
                     batch = {k: v.to(self.device) for k, v in batch.items()}
@@ -116,6 +98,7 @@ class TrafficNERModel:
             avg_train = train_loss / len(train_loader)
             avg_val = val_loss / len(val_loader)
             acc = correct / total if total > 0 else 0
+
             print(f"  Epoch {epoch}: train_loss={avg_train:.4f}  val_loss={avg_val:.4f}  val_acc={acc:.4f}")
             history.append({"epoch": epoch, "train_loss": avg_train, "val_loss": avg_val, "val_acc": acc})
 
@@ -123,12 +106,11 @@ class TrafficNERModel:
                 best_val_loss = avg_val
                 Path(save_path).parent.mkdir(parents=True, exist_ok=True)
                 torch.save({"model_state_dict": self.model.state_dict()}, save_path)
-                print(f"  ✓ Best NER model saved")
+                print(f"  Best NER model saved")
 
         return {"history": history, "best_val_loss": best_val_loss}
 
     def predict(self, text: str) -> List[Dict]:
-        """Extract entities from a single text string."""
         words = text.split()
         encoding = self.tokenizer(
             words,
@@ -150,6 +132,7 @@ class TrafficNERModel:
         for token_idx, word_id in enumerate(word_ids):
             if word_id is None:
                 continue
+
             label = NER_ID2LABEL.get(predictions[token_idx], "O")
 
             if label.startswith("B-"):

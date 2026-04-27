@@ -1,15 +1,3 @@
-"""
-FastAPI integration layer for the Traffic Scene Understanding system.
-
-Endpoints:
-  POST /predict-image   → multi-label vision classification
-  POST /analyze-text    → NER + text classification
-  POST /generate-alert  → traffic alert string
-
-Run:
-  uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
-"""
-
 from __future__ import annotations
 
 import io
@@ -33,10 +21,6 @@ from nlp.classifier import TrafficTextClassifier
 from alerts.generator import generate_alert
 
 
-# ---------------------------------------------------------------------------
-# App setup
-# ---------------------------------------------------------------------------
-
 app = FastAPI(
     title="Traffic Scene Understanding API",
     description="Multi-modal traffic analysis: vision + NLP + alert generation",
@@ -53,10 +37,6 @@ app.add_middleware(
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODELS_DIR = Path(os.environ.get("MODELS_DIR", "models"))
 
-
-# ---------------------------------------------------------------------------
-# Lazy model loading (loaded once on first request)
-# ---------------------------------------------------------------------------
 
 @lru_cache(maxsize=1)
 def get_vision_model():
@@ -82,10 +62,6 @@ def get_cls_model():
     )
 
 
-# ---------------------------------------------------------------------------
-# Request / Response models
-# ---------------------------------------------------------------------------
-
 class TextRequest(BaseModel):
     text: str
 
@@ -95,7 +71,7 @@ class AlertRequest(BaseModel):
     location: str
     severity: Optional[str] = None
     vision_labels: Optional[List[str]] = None
-    api_key: Optional[str] = None  # Overrides env var if provided
+    api_key: Optional[str] = None
 
 
 class VisionPrediction(BaseModel):
@@ -120,10 +96,6 @@ class AlertResponse(BaseModel):
     vision_labels: List[str]
 
 
-# ---------------------------------------------------------------------------
-# Endpoints
-# ---------------------------------------------------------------------------
-
 @app.get("/health")
 def health_check():
     return {"status": "ok", "device": str(DEVICE)}
@@ -134,10 +106,6 @@ async def predict_image(
     file: UploadFile = File(...),
     threshold: float = Form(0.5),
 ):
-    """
-    Upload a traffic image to get multi-label predictions.
-    Labels: rain, night, congestion, clear
-    """
     if not file.content_type.startswith("image/"):
         raise HTTPException(status_code=400, detail="File must be an image")
 
@@ -158,32 +126,21 @@ async def predict_image(
     prob_dict = {label: round(p, 4) for label, p in zip(VISION_LABELS, probs)}
     detected = [lbl for lbl, p in prob_dict.items() if p >= threshold]
 
-    return VisionPrediction(
-        detected_labels=detected,
-        probabilities=prob_dict,
-        threshold=threshold,
-    )
+    return VisionPrediction(detected_labels=detected, probabilities=prob_dict, threshold=threshold)
 
 
 @app.post("/analyze-text", response_model=NLPAnalysis)
 async def analyze_text(request: TextRequest):
-    """
-    Analyze traffic incident text.
-    Returns: NER entities, incident classification, spaCy linguistic analysis.
-    """
     text = request.text.strip()
     if not text:
         raise HTTPException(status_code=400, detail="Text cannot be empty")
 
-    # spaCy analysis
     parsed = parse_document(text)
     spacy_data = document_to_dict(parsed)
 
-    # NER
     ner_model = get_ner_model()
     entities = ner_model.predict(text)
 
-    # Classification
     cls_model = get_cls_model()
     cls_result = cls_model.predict(text)
 
@@ -197,17 +154,9 @@ async def analyze_text(request: TextRequest):
 
 @app.post("/generate-alert", response_model=AlertResponse)
 async def generate_traffic_alert(request: AlertRequest):
-    """
-    Generate a human-readable traffic alert from structured incident data.
-    If ANTHROPIC_API_KEY is set (or provided in request), uses Claude.
-    Otherwise falls back to template-based generation.
-    """
     valid_types = {"accident", "jam", "road_closure", "normal"}
     if request.incident_type not in valid_types:
-        raise HTTPException(
-            status_code=400,
-            detail=f"incident_type must be one of: {valid_types}",
-        )
+        raise HTTPException(status_code=400, detail=f"incident_type must be one of: {valid_types}")
 
     result = generate_alert(
         incident_type=request.incident_type,
@@ -227,34 +176,26 @@ async def full_pipeline(
     threshold: float = Form(0.5),
     api_key: Optional[str] = Form(None),
 ):
-    """
-    End-to-end pipeline: image + text → unified alert.
-    1. Classify the image
-    2. Analyze the text (NER + classification)
-    3. Generate a combined alert
-    """
-    # Vision
     contents = await file.read()
     pil_img = Image.open(io.BytesIO(contents)).convert("RGB")
     transform = get_val_transforms()
     tensor = transform(pil_img).unsqueeze(0).to(DEVICE)
     model = get_vision_model()
+
     with torch.no_grad():
         probs = torch.sigmoid(model(tensor)).squeeze(0).cpu().tolist()
+
     prob_dict = {label: round(p, 4) for label, p in zip(VISION_LABELS, probs)}
     detected_vision = [lbl for lbl, p in prob_dict.items() if p >= threshold]
 
-    # NLP
     ner_model = get_ner_model()
     cls_model = get_cls_model()
     entities = ner_model.predict(text)
     cls_result = cls_model.predict(text)
 
-    # Extract location and severity from NER
     location = next((e["text"] for e in entities if e["label"] == "LOCATION"), "Unknown location")
     severity = next((e["text"] for e in entities if e["label"] == "SEVERITY"), None)
 
-    # Generate alert
     alert = generate_alert(
         incident_type=cls_result["predicted_class"],
         location=location,
