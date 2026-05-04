@@ -30,5 +30,3 @@ data/val/
 
 # Logs
 *.log
-models/best_vision_model.pt
-models/train_history.json
