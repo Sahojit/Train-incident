@@ -1,0 +1,6426 @@
+[
+  {
+    "image": "data/val/b75da19e-78c2c800.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b69d5b1d-03bd6daa.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b45928e6-f07ac4c9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b200b84e-4a792877.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2c46944-e4ca174b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b60011a3-6490e0d9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c428e890-674ecc9d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b677a46e-fb00fe82.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd8e0b69-64d450fe.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c564c92b-dec2638b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba5c4fbb-6815f84b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b1df722f-57d21f3f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/476d0402-848e10d5.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3ea802a-c689de9a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c17a1579-37f5c36f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6673f98-d6661115.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/300f18e4-d2e68a2e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c380e9e2-6d8a84be.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/ca4269e1-0f1e4f92.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c3c4afe7-b9a0a895.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c68d9027-9707e4ed.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3367099-841c2fba.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c671fa68-f2ce610d.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/beb53c44-f3619124.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd57e60e-1e11a4e0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c96299f2-8e89da2c.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c5b6c311-c7351dcf.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4201bd2-75c1998d.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c288c7a7-347f9b29.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bfc0402e-23a0568c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c455b31c-12fbb7a9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b279bc06-b7bc42a9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c37c2977-dfcf5b8a.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b596ea23-44b2e05a.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/ca2fb80b-9d22e350.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/728d5596-2daae9ce.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bac84858-9f795ab4.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/0e2511a1-0a336015.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4f1500e-901fb4e6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b398327e-08f3a1f2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8a7a62d-e58e7297.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8aca1e2-4d35a25a.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b2b32394-e46669cb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b38b4f98-0e8820b0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bea74140-801c009e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7049e6e-fa515af6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b782f9ad-6bc1d4ee.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b2443c9d-8cc3991f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1b89289-81b3242f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/57671c58-6f118aeb.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c5bbf929-8c3d6c80.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6d6c72d-e3bb94af.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b2d502aa-f8382905.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7fa8344-959a77c9.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b9eb4605-1024d23c.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c37ae4d0-27e020b9.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c6bf8d8a-10605e47.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bc07d865-43cc5bfc.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b98578b9-f52d7f86.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b605d5d8-d9310a5c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c9a2a6db-a5b0a35d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2425dd9-c679e796.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf0038bc-5512f257.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb99539a-4fd21cfa.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/51737864-6c65acc5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba9baf3d-415342a2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b2ae0446-4b0bfda7.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2d051a0-a1590f05.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c159a842-58ec61d9.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c1a8c10a-85b7b1d9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c9106ec8-62580195.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/beebb876-a43fa1b4.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7457987-4f89d5e8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b92a7fe6-714c37c2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ca25cf74-7cb42159.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bb6e9fc4-35369ff6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6174277-7c80aaa7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb185003-ebc11af9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/20a9d23f-708fdd77.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3121071-6b1e5be7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bb80de49-c7d12d6a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8b528fd-12a62505.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bc29fd13-8d640e8a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/91a4614d-82bce903.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b80fb9b6-b12f0c90.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bb5cc516-c0b64937.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b24bdca1-e4f0c558.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/14b50a39-1b5d5b59.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b94b1f35-b8e48adf.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba7dcfa6-66589c64.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be41362b-bf2985b5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c10aed37-ad2cda9b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7a61397-1049116d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6716c49-8a602ea6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8086e12-68a9bab2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c000dedd-db6c37a3.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b857eb06-4601a3a0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1f35f18-546dd038.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c5218d47-c938bca6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdc89152-2b7aec87.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6ffe7bd-d7a0f83e.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/72b0329a-1cf80b17.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be986afd-f734d33e.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4860efe-127bd880.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c33a646b-70d40dc3.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/ba510a80-edefe47f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c4e92086-e1b8324f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c36ded7c-a435e454.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdabbd46-c58c1d2f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/5d3a704d-e5338551.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7796b42-3936bdf3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b39fe3cd-076e7ef7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bff76a29-d83cd75e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/3771ab11-0d486cfd.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c47d2355-85330657.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbcf6d54-9e66bc23.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1362f73-654db2c3.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf971590-0308762e.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c752e922-dc304441.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b90cbc2c-4f9a1c58.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9d12c48-1cdf1b03.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c17aa6cb-b8dbbf71.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8c97803-0a84ce2b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c36c60e8-ad8ad874.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bf1e5669-860f46d0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c9df3b7e-bb72e430.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3b0f7f7-c97288ca.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/02ae4a52-e4715e65.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9206eb1-08915f67.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c73c95f5-2fc1e83d.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/ba4d05f6-8b126390.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c361f0b8-d5940918.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c155b6d9-3f10e2e8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c20ae70f-0e43133b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3d46fca-a69e8189.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bedb6dc2-777e4568.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b214d1e1-f248c616.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b44f7365-beb4d3e7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6089c97-fb6682fb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bae4f394-d4a6c04a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0677163-39c6f234.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3009124-b8d0d1ea.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd65dd37-4c3cdf2d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c20aa83a-0646a7d3.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c8d1bc4e-9c43c393.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1f35f18-1bf0a037.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb0dced8-65a75aec.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/654cd97d-0625f539.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/9ecdf01e-e10e9740.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c1e9212e-dd32de40.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7f7a5bb-41d4551f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3b44b49-3af119e3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c891763b-fea20b04.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c30f959a-bd87aa16.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c8422169-81cbbb30.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4f723f1-5ba8f7ee.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2a0e52f-024a2af0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/25f18204-2d1549f9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bfa89962-9698bc68.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/594ff64f-3b6a1ae3.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf8463c9-7f1810d4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf44f0b6-7e6ad409.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b1fc95c9-cb2882c7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3048201-d86d9cd8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5d864fa-a4e15b55.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bed8e0d6-615b8f5e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/5ff2e702-df1735fb.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bc6091c9-30b92a47.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba2e8260-5b48768d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/7e5953c8-8659feaf.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b42df626-3c4d9bfd.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2c8b275-cd37b639.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/02a0f142-c9c4b7d5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3e72283-d9fc39b0.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf7b93b6-de7552a6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b48dd7b4-6462b6f7.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bbcf6d54-580e2911.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/2fd43662-6d86a1bb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5343589-b82a2d0b.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bcb2c6fd-060efb1b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7922063-76dde2db.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/36862c9d-e3b3f343.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/aa0ed70a-40ba2a43.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/445c4ab2-57916647.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1fdd182-28e0d6aa.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0d1a6d9-54ae850d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bfb41e9f-e4f81437.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/a5f49541-a0b9cd82.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b915526f-f22f5cc4.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c91a3cef-e63379c7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1c70561-e47b6c58.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c685aea9-2f9e84d2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6459d6c-e50530d0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c4d25f00-b6658057.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9c71d97-416ef91d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be415cb5-0f27b485.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6ffe7bd-fd52b51e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6b9d3c1-d683dfce.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b97aa948-d53ee60d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b84a1117-3673ce8a.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/baf24e00-7742132f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1362f73-bc544663.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b1e88fd2-c1e4fd2b.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b90b45ad-a54b1fbf.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c88555fb-d0df0339.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4278d1f-dbd0295c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bed001a8-6cd3d8be.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b1d0091f-f2c2d2ae.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7aa329e-25d68dec.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c748c1a1-f1338769.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c262c510-15478ba1.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b9ed9a4e-4f2897e5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5b64f27-fc829e64.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c822956a-316476e0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c346c42b-748697b5.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c38bdba6-cb18e83a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9e2c847-48127b39.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b73dd344-03413fbf.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bab48a4e-43fa0dfe.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/51323ecf-345268e2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c566026b-3127f5d8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b857eb06-7ec70e8b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bbe7c7e2-0d1dac56.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c3981cf1-a949f363.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4542860-40cc6d5a.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0e24bac-f07076d1.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4c29ddd-808b41d7.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b230a7b2-c881c382.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/beff1d1c-567ec742.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b8bf322e-36122f48.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5022e95-a691dc1c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8476b52-383b95f4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bcaf73c1-9c01f981.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1923ac1-242516f9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/02a0aa2f-0ba5cdab.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3b4c0fe-2683b31e.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba0f292a-bb8b14af.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c776d10b-25177c93.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9d12c48-050117dc.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c214be24-661d4b88.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5588233-76a1ecf3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b66c8021-7cb6d587.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2e3fe05-fa312f4d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b1d10d08-743fd86c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bc325ce3-9cd329ba.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b4235ab3-b305d3e9.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bcb2c6fd-094b605f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c219f321-d15ce31b.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/6541f510-fa68117d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd70577b-57a066d8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bea02fed-85841fe4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c665137e-c5ba935a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca28f275-95fc6836.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4a6774c-753a089b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b66c89a6-0e3787ab.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/7ee4f119-96f1413c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd989210-5855f1e4.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2148d05-b52ebea0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/36206d75-b0cbc248.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be9c5bdd-02782f34.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd5a0062-f462f63f.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bedbeb83-fe19f8c6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bab97280-a3c6a37c.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/468e751b-085cc097.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/5dba306d-8d574c13.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9aca3ce-181f2909.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6079e86-f5203076.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba1f97fc-5b4826df.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c9bdd74a-9dc0ad2e.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bc619446-d2608304.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0c6e74f-8f9f8ceb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bfd64d5f-d141be33.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bec0d815-f71f4f7b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c9557697-a50c7ba4.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c7c12eb6-2752525d.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b7ec9c7e-816b5937.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf2fa820-f92b9073.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c65d48bf-5b33d44d.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c0da08cc-adbbb7b3.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c3a26429-19fefafb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf77e9b1-cd3a731c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b27fdbad-ae939e31.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ca3045ee-b8ab4712.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b53cb17b-4df01599.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c5f523f3-b5a9057e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/78ef68cb-f61b9567.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c7bcd5db-6483a43e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd1bdca8-3cc740b7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3cd4bfe-93377084.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4a19ba6-e17be5d5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c456e9c3-8a255f8c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b5b44d2d-60f87448.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bed3db3f-f0ce3c29.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7bd8b85-9f43d43e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/4b94bae4-48184270.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbea4013-25cf6227.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c4f62823-9d3f8519.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6b8dc9c-1d5e230a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b5cd5f72-32232751.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b26610ce-083c3bd1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb1a255a-99414370.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b555790d-ef09fa96.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7776076-95aab855.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c223e6d7-e1a9bb5a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5c43551-472281ea.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/9801e81f-304dc29f.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b4654b11-c935938c.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b89aded3-c4e4fb25.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7140eaa-eb9d0128.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/64505e49-86c0bb59.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b56a0885-1c282ea8.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c540d300-35f80d81.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/a782a3f2-58e51ce7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/69703cb9-d074f923.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b51aa35f-0b962e5d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b442c34a-6fe5cbba.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c45b2e04-fb920e89.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6dd289c-693cb0cb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b843ef1b-f173bd21.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b398e0fb-257cf424.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/1685d3d8-713b2e3d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb890202-d9d48310.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7348a27-496f5f92.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf6b680e-fe68c5f5.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b6b9069a-4908df6a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c64d742b-b58c8bc3.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7bcc17a-cb639c92.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bd16d59f-bd4eedcd.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b4b083a0-820bc2c4.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b266db29-12bf52fa.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c7c86a8e-f29f4e4e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c74931cf-0970795a.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b36a5c73-437be32a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b495e3ab-90180a0e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c58a9085-abc0c295.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/10b29d06-1114fd4d.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c798a9b7-fdfaecda.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bdf3c743-95dacd5d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/4d5ee20a-344c9a6e.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b99f250d-81828357.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb1b7e42-67806924.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b406dc5a-7a946e61.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3ae9216-3d694ff1.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6642e30-d87afdb2.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/4b9ab8ac-da0d8fb2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2c5ac9a-fc00e41a.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/1282cc8a-c395d7f1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c011d5e2-d4732967.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b35c1016-4e29ef43.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c5a4ccc0-2bc61efc.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c13b9590-a875ea73.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/55f35509-c69355d7.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ca55fb23-f91ca9ad.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/2c3a9ee8-764c4ee3.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be6fd6ac-a0cc8633.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/35b1e745-bb2bcfa5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b2bf0e03-a3921cd6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6d77a40-03423c96.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8ecdc10-e0148c98.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3cd662f-228cba06.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/ba8b1e05-027a7e4a.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be1a0aee-7127f0d8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c4dab4e2-6c4805a2.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c89ee093-58ed3db1.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7eab2ff-94d03413.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be3d3a81-326a032d.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c1211833-1ba939db.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c81af731-7a2b15d7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0bbcd5e-f57df892.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c308561a-0b199e0a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3d46fca-a8bd9b5c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/a32543af-60e921b1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c39f04ad-07b3e09f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1f39934-5ae83750.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca3bbb0a-cd13da9e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3e74777-122e3878.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b47f85d4-c6562257.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b26dddb5-28e4a05f.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c146d100-cb76d05b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b68fe1ec-4c1094e2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c31aa969-d99ef9fc.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c3061560-cb940839.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b29c5efd-754ba560.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9a0d48b-a89007f6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b1f25ff6-1ddb7e43.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3981cf1-fb7c634e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c50d0b3f-96a483e0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be021235-7920ed09.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c767ad39-b196c36a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7ad4512-145bbccb.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c4eb96a1-92fb9d6f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bc31b583-be060375.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdfd3a09-7a86654b.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be2c4865-af9a958b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9a8d20a-4c0028f7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/2f97ca3c-ff753fe9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c87e0427-31e8946b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/4878655f-a50d3d53.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be045ad5-53b75245.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c863c0b3-b53e2a37.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b61659ca-b9aded69.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/9d514c98-3a57ace7.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b3dfa1f5-9f4eded2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c49c8353-fe2f3304.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b6487a3e-2ddb32e0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c9484a09-4a6da4f1.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b4a240e1-6e3cd8b8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b78dd814-b57822af.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3770858-fa8c241b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbb2487c-578aa473.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/30f81e5a-fd4b6c11.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/2d84b717-f5aaff2e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3f59b98-e7f870e2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/0e48b61d-831f1846.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b1ee702d-0ae1fc10.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b1d8735d-eee9f184.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c84f848e-2a5e0737.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bbf3d83d-f15c5dd8.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b9d11a21-9cff3219.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6592e95-0eaf85a5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b79c1f8d-f34cbff5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b71d7574-2af6ba2d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be047105-ea277d1d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd9fdd5a-4c17304a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b1d7b3ac-995f9d8a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7d13f97-74ae37ed.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c12b8a48-168db729.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/2f8c93a6-e4cb07b8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/a13ab3f9-d1345339.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c555922f-58564fdc.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6ff1331-f6d3fba8.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b726242a-53eb7489.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be463595-760f4698.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1362f73-93d3e230.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c06d23aa-c38fa368.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/832f4eb5-3a101f6b.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b568371d-1a142858.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be96d002-f987edab.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b6d1c1f6-998f36f3.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c1a1e343-92f68005.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bb1b7e42-b17da5d0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd0380e5-bc2886de.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8c34ebe-756f7560.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c14a28d6-1623e98d.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/2439c8bb-607b98db.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8c0c00c-39ef4894.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2f0c529-238574c7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7d3916f-ab5b5296.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c415a08c-a6cb455e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c21ef8aa-0c751223.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c39dc2ff-4399acc0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1a42d25-f69459ca.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b6afe56b-ec85d002.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7446774-29ac1db2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/7614f658-c303ec60.jpg",
+    "labels": [
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c68f8fd2-61681484.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/443a6eec-790ee8e9.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c86ee6aa-a2ef00fe.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c038cdca-4df5e979.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bb2f678a-9364842a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bdc4990a-bd8d6052.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c86ee6aa-b5dbd391.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/ab12975c-eafefd7b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c111bb7d-c3aa5b7a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6387d9e-26028281.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b989ad0d-a1513cc2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4ec8b36-e81e510a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd554ae8-2c8c08df.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c338bae4-6f7b7153.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c150197f-96adff4d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b44a7e5f-37c27ba5.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c889c950-af3a6dd9.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c172eb28-aaf233b7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b2f48fc3-eda0e217.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c3436372-eb18934d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b836b14a-fb13c905.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c48569ef-c99d8f9e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b736c477-ce5093ac.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c53986c1-a827a10a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca3736db-cd087585.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd5bb58b-7087c7f3.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6763bf3-348c7b94.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdcf5742-bd173465.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b928271b-35145ad6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b71bf87d-894c1a21.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c605bc6e-a4a48e5c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c664605e-44460227.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/a1074845-14475802.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7b32a5f-90bce6e1.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c37b9726-5056fc28.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c66cd6fa-979934f5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5032e1d-d2f24352.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6b748e6-e281f93f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bae9f15e-0f68c902.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4715825-7c265849.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b674bc13-dceb1013.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c55c6b72-d4bb26f3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c4ad8036-ee20aaf7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3a3d166-3a6a258d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b5dd20c5-544163f6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c5ca1272-3f672c39.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbc64a91-b3bf5a63.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdf8fcad-f9afb0af.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b1cac6a7-04e33135.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b60da546-ee383124.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bcafa205-40fde1da.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8e895be-9bf55449.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c267da7f-006f108f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8a158fd-1e9c1bd7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c366973d-f5ec8394.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b582c0e7-5f9f8860.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6b871e8-e0718c93.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c179d309-59d431e7.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bbb1289a-a3fbe37f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7a9b166-a7b6abec.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b886a0b8-cb75e3a6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b80ccebf-3de2a87d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/a5054b30-1f6e9166.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7072ec0-3a3b64a5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6ca7b50-602f0d02.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba85bff0-70955e40.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b25c1103-5da4b435.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/32261703-2a8fbb58.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbe91656-17f3e492.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c01feca6-4fe11029.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c21e328e-0d19a282.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b48dd7b4-9cc0d29a.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b87a03a9-c9da2b1a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4f723f1-a0aab25c.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bfb11474-87040800.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bef3c0bd-5e448793.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bed8e0d6-d5645404.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6dfbd67-2c7061bf.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/72d18371-22afb89d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c66cd6fa-e9647604.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c43052f6-d337ba62.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bcbf4834-eed0f97c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bbc46835-58ccfd96.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b1d7b3ac-5744370e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba0a827b-dfcec16f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd50478a-7c1e236c.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/befbd710-6bf61d20.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6b047b4-3fccc761.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba731feb-01fd61a2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b20ff95c-b9444127.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0f35000-9401b8f3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bc7bc1e5-b3223500.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6549c4a-35d928df.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/37167c7e-34173db2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b893983a-265a0b70.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9d34460-2c3b1ab3.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/ba9f6c98-2a75a096.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3248121-1ef2b38c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8ab4367-297944fb.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bac52af2-81952c8d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/1236ceb8-804401af.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c7d8925a-f469385d.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c54abf2f-cd3f73dc.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bcde71de-1bf86b19.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4d2dede-9b67d0bd.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0892575-b842e6c9.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b25aac57-705d50ad.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bf9881e4-9f1bb471.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/baa88157-4026332f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbcdfc12-745c6e19.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3450498-dbbb787e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca2d32b3-5e8835ac.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b70d1e4a-467d8c58.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3c0357a-10fef986.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b82e22f1-40b5aa11.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba01e7b7-4c136c35.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bc6dd79a-fa684758.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1807c66-2813073f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb437280-03a2bf81.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c93557c9-87e615cc.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbc755d2-e35a6b06.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5f4350d-de142038.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be2ec34b-bcdc0b2a.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c6e17725-4e651f0a.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be2b1f01-892bf2bb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c96ffe59-1cf2df11.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b586b979-c563c3e2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd026bc5-1d80043b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba508231-2158c29b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b7e98aaf-df117cd8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b46ee89c-5d054327.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/af7bf837-14b8ca36.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c38e77f6-edc3c34b.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b50cb586-d808d404.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9db357e-512d7f3f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/33ac7be1-656dfb40.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4e3e68f-3aa63f29.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1d9b74d-56311612.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/fe189115-c31cac5a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf838e9d-d8d5be4d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c76fbaa1-d03af260.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bcd900a7-02adf687.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c66f60f8-4a20099b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c87a634a-bacc0924.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd17816c-ad66db63.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3223c85-fccaf29d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0c954a7-0c7fa0bb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b56c225e-a71598cd.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/17d2c5d1-3da97736.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c92046a2-2a0b5a9e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd735753-1451d21f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b93e0d1b-5e1e35f8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0309dda-23a5c949.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c3e87419-dd6f2321.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c836d9b9-215a90eb.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb289fdb-b6763201.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bc013163-09158f28.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c17b2387-acbe59ce.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b674bc13-41fca4db.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c2680d40-90d19d17.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c38cd3f6-c74ca48b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c414ea72-128822b2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c84cf4c9-8667fb28.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/a32543af-2192cac1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c177a543-86fc2f32.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4b3ce3d-077bb161.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4235ab3-a1c929ae.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c8b5bc59-7e4f7285.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf538a51-8782f04d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/beb80a43-c3b9107e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba91b65d-886141fd.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b75da19e-a29454b7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8cf7112-d0f7365c.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b3cc736f-7a7794c0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c379bc53-4e2c5dee.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4301c7b-735da0d0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9bafa5a-27d8078f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b93c2c35-3533f822.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be2034df-1d272a6f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ca52e79f-eca3eeec.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b94071ab-d4385c1a.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b52c65b9-31ad0690.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b69191ad-9c9cfe44.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b90f7487-17bb6cb9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5430bf3-07e67721.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c837d2ef-25f73789.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/1a8d12f7-9b8384a3.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/5e874875-3bb43753.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bc2552ff-c72260e0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2a6b1c9-ce009635.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9e197fb-1e3721e0.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b5e1a441-3bc3277c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c48ba79f-d11f6d9b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b35c8e3d-439b1b23.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c00ec632-8bf1e59e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2c78435-b075e841.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be0fdf82-eb463749.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b47262a4-3c664e48.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c43a3013-c727b023.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3870915-a0d8f653.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be2c1849-ed1a9103.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bbbffbd6-e260a6c2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c9736046-5b96af10.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b3990aa9-8adaa51a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf7cb2a4-685faa7f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bc208c84-18481db5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c87ef40a-d9c511a4.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c93bd9ce-d2617cc7.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/ba402b44-b17beb78.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3e0345b-ae566cbd.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b3e72283-34ebe4f5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6ed8102-c341da76.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b21c86ac-2eb7ba16.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7d0b0a7-a0e6b491.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b82f91d7-808670c6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd355fcc-c72ca547.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bb8dba97-50af5a1e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8a1bed9-da501372.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6db6944-dd240a03.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b325fe35-b59e4e91.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/281636dd-f68d72f2.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b24702e3-0456c83c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/baefbbd2-83ba702b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b396e413-6c8191b9.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c8d1bc4e-fa045566.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be791a81-a6b53fef.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be5ca360-3585455f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c560e52d-71c73e43.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c420e95a-f7f8eacd.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b2d4c878-2267ca6d.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b3e70fdd-e1df8660.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7e1237b-876a427c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bc6dd79a-5dbc7538.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b251064f-4696b75e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b761cf92-3127cc34.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0697e71-84867efa.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c82d1b73-4138f567.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5b2506d-07e406a6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c4aa9a10-9e10483d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/38d7971a-57a58f9f.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6d855a5-c1d5a996.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b24380ab-63272e5a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf196891-1bf4eedc.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3df354d-bec42887.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be3a5c0b-16533792.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c31aa969-fb62cfc9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bad81f09-0d02e84b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf8ff5f5-877edaa0.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c5ca1272-a926594c.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4860efe-4647e771.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/9bae59fb-5a5f4391.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c53a24f2-545aa062.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/2739a1a1-f8e21276.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8a135c9-3cbeb1c8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/083bc808-43718f9d.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4a8ec73-4a6c61c7.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b29377e0-83e8340a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b77df2a1-b2c5d1bb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8bf003e-c2e23e42.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/4cdfb16b-a37d9336.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6ad7737-9c7f7e4e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1797ffb-e25c45e4.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be8590fa-9ab10ced.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2987e05-cb9bfcee.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c17b2387-b53d9933.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4a1065b-ec1e76ba.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b87fe215-0f7b05e0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7a1b520-811842d8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bf213ac1-1665b81a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca08d93c-c406e9aa.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bc8e1605-5c57e4b3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bdacfa22-5563c8aa.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6e264cf-d2600371.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd290539-e1efc276.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bcbbfd82-bcc937d0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c39dc2ff-6976d19d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be2c66b0-2bc5eec8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0eba0ba-c73e128d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0756468-c4fd9382.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5d06d78-e4ecfa0c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba9f23d8-741fa7f7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b569f76a-33d451fe.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c9403737-3743ae01.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3dd5345-15bbf8ed.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b5a50c2d-113da15f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1a2f331-c407620f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b2c5110e-09e459e9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c426ec74-d878b23e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b35a415a-02526f57.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b48b4ae2-cd8800d8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/70e33c4f-068ef228.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c100db13-8af08790.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c4a078bd-8e5b3732.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5fe17dd-52352131.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca4269e1-914f1061.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba2610cc-76fb5c2d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5a4db41-1b4f91b0.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7548e7c-9b143316.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4b68779-1c75351a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3ad67db-0e969ba8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b255cd6c-e5f99451.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/2e489f81-548d28c9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6592e95-6e497868.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6b8f394-6e6a9b99.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/be66a004-91dbe123.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7dbfac6-c3921e8b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3990772-45bf6ad7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b90bcbaa-d26f06dc.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c993615f-20359e85.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c46c8375-20bbe925.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2ef33b3-561067be.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5ca1339-b9f4a4e0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf601884-af1b43e3.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bcaf73c1-a0f73960.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdad4028-be5b45a6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1384653-f155dde5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c3348435-58a3fba0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bc5e32e9-73480461.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba4fbdd7-43dccdf9.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c760a824-730269a3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/2a9af7d8-6373df6d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/9347585c-30db0854.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c644bce5-b6465290.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c76e6e4f-2915de4e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c73bf483-e195b9aa.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b99f7c8d-b97ed7dc.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c517c182-52118b0a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b997ec7a-af29d0ca.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b995794d-66208231.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6f2176b-20c2f527.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b1d7b3ac-afa57f22.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1f9f357-ab0da339.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/657d369a-e6f8727d.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/a1c525ce-0e965af8.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ca049e30-f0a8ccd4.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1a5825c-c2afbdde.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4561bec-26a99096.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bdf775d9-3cb15a15.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b26ba07a-1c7593b1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c8a8a8b3-e36009e8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3926b26-2b8702c9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bea4ac92-340863d9.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd0380e5-de0cc7cb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/5c515515-c363b860.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/0b426da1-d4116b83.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b4581cf1-fa4a5f32.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c343e9dc-f2dcbc21.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b5115080-37a89b9c.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c8285354-3671f1b2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/8bf799f2-c13d03f6.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ca319f4c-b34af0f1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c620ac7c-f3d4e50c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba87390f-75ebd274.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b8d24edf-70279ee0.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b415cc29-7371aa85.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6149edb-63dcde71.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b20b9c19-91e01a50.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c83b360f-81c019aa.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bae16c60-cf344206.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c5343589-f0a9e124.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bffe8c14-18cf493f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b5d63e8d-be6df898.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/2295f926-672f33ca.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c74a122c-1494f0b4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b533db8e-4abfcb54.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/1f30367d-35271bd5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6aa41ba-736c9da7.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b46478b0-1eb55806.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bba45236-90850465.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c9cd9fa8-6f90442b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c8b528fd-f3a72223.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2e294a9-8b108774.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bebc6162-bf494364.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c9283177-7531ef01.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c66c630d-50cda53e.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bad909d4-8de038fe.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bfe587eb-6335f4b3.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/750720eb-5089ab52.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba3ffa1d-05ce6de4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c3c2eb65-bd875ecb.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c1c6903c-922c5fce.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/914f9c23-48d8d9bc.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b20234fd-822029be.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c5853065-e066b724.jpg",
+    "labels": [
+      "night",
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c2ee74ff-63374b3e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c37b9726-29dfad76.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bd816a01-fa31ce3d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c249fd49-2b590a59.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/476e9c48-9a1fa0a6.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c8bd76fd-77472fba.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bfb97ec2-23a5c362.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8afaffa-5ec67bbb.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/3269c273-e6a57bbc.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdb610dc-15dd7f0f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bbb46475-1bfc3090.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c08b49d7-b1cea927.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1e52d50-200c259b.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b204a5c1-064b0040.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c447f74e-f67bf173.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8c0457f-fa2eacb4.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/b3f7c502-d89499e0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9254d2f-df7dd6b1.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7e9dd39-2e5a6648.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c26b2918-1cb13443.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be12aefd-dad8b385.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c6085e74-b63938e2.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/c9a80c9b-67f90548.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7f36d03-c8418294.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba7efc39-b198d2da.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3c939e3-3fb7622a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c12dc478-0d43272d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6d4654c-0ec10f99.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c2a6b1c9-c45dc6e2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c2f0d1f5-0fe37fc4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6770025-c81ef5ed.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c44f673a-b4b48b84.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c53c9807-1eadf674.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/1c89dc5d-c06621ab.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/7969c31d-d9b9a31d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b743b808-c7c4e44d.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/train/536e0568-076db2b3.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c7e9dd39-ae653d55.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0e834fd-b666a542.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0f978fa-9b4e623f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b26ba07a-2b68a502.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0677163-69842abb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c089e474-b795bcdc.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c1a8c10a-2c737293.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b81d060a-fddedd4f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4475e22-27ceb162.jpg",
+    "labels": [
+      "rain"
+    ]
+  },
+  {
+    "image": "data/val/bca28d76-e40b21eb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/90558d48-e3288dfb.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/a84a47c0-404d26c0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b6af8c92-ba98fb91.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0703477-b5138d5d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba09810a-a1c9c327.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bedbeb83-cfb5b8eb.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b8407cb8-71fdf808.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0dc5a95-b4bfcb2c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c992d89e-45d612c4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b48c7b5f-ae58463a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bf1af4ce-dcf62242.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/870a5e81-c4896325.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bc0932fb-416a9475.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c14dc226-1d699f84.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bc6a2a77-88414eb2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bee1b799-cfe60aff.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b4ba0552-53249a02.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c75e23fe-b2deb730.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b81b8523-57ccb331.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bae552dc-36e0fe4e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c7a0fa73-1d4dbbf1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c17a1579-d4af565a.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/506b3495-bc614894.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bcaa771b-5ace3b37.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5718931-d5862304.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b4f65b32-ff644e07.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bdcd6f24-c646d15b.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd46953e-1bb2f914.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8e675b0-2345da2d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b332df78-970364e2.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c5302a80-100fc260.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/14ba20d7-62f8447d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/3a72b687-5f8177ec.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0d85a76-8187c669.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c07733d0-6b75a5ee.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/133a6a64-537f4c9a.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c81fac7d-867a6604.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c93a7ee2-e21d6bc5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be177534-4a736a9b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1f74dbc-21fc10db.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c55fef10-97ed70d9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5b17442-2f6d4b97.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bb4abf02-2651a845.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c17fd4de-d4f40b90.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c43df889-350225a5.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b9d24e81-a9679e2a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c927d51b-fa863734.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c1f917f7-49fe8032.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0e5695d-8f784313.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0035eda-6e1b34d6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca6170df-a566823d.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/be22622e-3712dbc2.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ca0eb18c-907cd101.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/train/69c4320c-4efe330c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b82cf799-a135768f.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c96ab7ea-2770185c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bc308aee-b3a48c42.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b8c60cba-d52cfc92.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b5191523-9c2c4c83.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/ba6c1b09-24293108.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c591f68a-75fddc3a.jpg",
+    "labels": [
+      "clear",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c15c29a5-eb30cb60.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b83ec6be-8147e6f9.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c6a365eb-7d11a7c1.jpg",
+    "labels": [
+      "night",
+      "rain",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c52a5080-7f1eba3f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bda1719b-476378b3.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c2c38d09-ac9ea6ea.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c94d8213-847662eb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b936e35e-e46a87e6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c1252e1f-c0640ea4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c96fcc84-d7778d41.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b7bb0d6e-1922b34d.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c121b93f-93807706.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/bbff5146-d503a17e.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/b61212a0-3ddd6209.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b99b66a0-308f25ed.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8af3e03-7468b30d.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c3009124-01540ddb.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b65081c3-a3dde936.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bd5f8f37-b3008fa1.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b44d57fb-e85243b2.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c5fd03fa-70ea30f9.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c6bb2e07-5ed95699.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c0bbcd5e-d9c5d41e.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b29f9214-4846c10c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c14e8180-1968200f.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c5d2daaf-bee29c76.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/bb9fb09f-c2a5e3d5.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b8f63f02-014464f6.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b9429f07-33ae3ff1.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/ba181cb9-341963b1.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c8df9893-499c95bc.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b2c7ebc4-731ea908.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/bd46953e-3f51d76e.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/be7b856e-d1ece683.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c65c2462-96e8ae92.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/train/04488604-72f099d0.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b28cb5d3-9ff4ab4a.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c07733d0-974d1334.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c96ffe59-25022c0b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c063c188-26f08957.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b249e7f2-d619bd69.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b77dc345-d1f9b91c.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c8618b44-09196f5c.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/train/95ddfd55-175d1c3b.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/c723a926-c9bf868b.jpg",
+    "labels": [
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b3121071-c0fd88c4.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b633ed08-08a8b4ce.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b92c4dd3-7ed54ec0.jpg",
+    "labels": [
+      "night"
+    ]
+  },
+  {
+    "image": "data/val/c5694077-e345e2a8.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b6241b17-b82f1b25.jpg",
+    "labels": [
+      "clear"
+    ]
+  },
+  {
+    "image": "data/val/b555a636-270a146b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/b2e2b2be-4142962b.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  },
+  {
+    "image": "data/val/c0c33c60-63c65011.jpg",
+    "labels": [
+      "night",
+      "congestion"
+    ]
+  }
+]

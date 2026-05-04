@@ -164,9 +164,13 @@ button[kind="primary"] {
     background: #4f7dff;
     border: none;
     border-radius: 7px;
-    font-weight: 600;
+    font-weight: 700;
+    color: #ffffff !important;
+    font-size: 0.95rem !important;
+    letter-spacing: 0.3px;
 }
 button[kind="primary"]:hover { background: #3d6be0; }
+button[kind="primary"] p { color: #ffffff !important; font-weight: 700 !important; }
 </style>
 """, unsafe_allow_html=True)
 
